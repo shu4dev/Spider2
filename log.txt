@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/agas517/workspace/Spider2/spider2-snow/evaluation_suite/evaluate.py", line 415, in <module>
+    evaluate_spider2sql(args)
+  File "/Users/agas517/workspace/Spider2/spider2-snow/evaluation_suite/evaluate.py", line 229, in evaluate_spider2sql
+    eval_standard_dict = load_jsonl_to_dict(os.path.join(args.gold_dir, "spider2snow_eval.jsonl"))
+  File "/Users/agas517/workspace/Spider2/spider2-snow/evaluation_suite/evaluate.py", line 45, in load_jsonl_to_dict
+    with open(jsonl_file, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'gold/spider2snow_eval.jsonl'
